@@ -2,36 +2,119 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-
-    <!-- Responsive design ke liye -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Text & Font Properties</title>
 
-    <title>Height and Width - CSS Basics</title>
+    <!-- Google Material Icons -->
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
 
-    <!-- External CSS file -->
-    <link rel="stylesheet" href="style.css">
+    <style>
+        /* ================= RESET ================= */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* ================= BODY ================= */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f6f8;
+            padding: 20px;
+        }
+
+        /* ================= HEADING ================= */
+        h1 {
+            text-align: center;
+            text-transform: uppercase;
+            text-decoration: underline;
+            text-decoration-style: solid;
+            text-decoration-color: blue;
+            color: darkblue;
+            margin-bottom: 20px;
+        }
+
+        /* ================= PARAGRAPH ================= */
+        p {
+            font-size: 18px;
+            line-height: 30px;
+            color: #333;
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+
+        /* ================= SPECIAL TEXT ================= */
+        .highlight {
+            font-weight: 700;
+            font-style: italic;
+            color: purple;
+            text-transform: capitalize;
+        }
+
+        /* ================= LINK ================= */
+        a {
+            text-decoration: none;
+            color: green;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: darkgreen;
+        }
+
+        /* ================= BOX ================= */
+        .box {
+            width: 300px;
+            padding: 20px;
+            margin: 20px auto;
+            border: 2px dashed black;
+            text-align: center;
+            background-color: bisque;
+        }
+
+        /* ================= ICON ================= */
+        .icon {
+            font-size: 40px;
+            color: red;
+            vertical-align: middle;
+        }
+
+        /* ================= FOOTER ================= */
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            font-size: 14px;
+            color: gray;
+        }
+    </style>
 </head>
 <body>
 
-    <!-- ================= HEADER ================= -->
-    <header>
-        <!-- Simple navbar -->
-        <div id="bar">
-            This is my navigation bar
-        </div>
-    </header>
+    <h1>CSS Text Properties Demo</h1>
 
-    <!-- ================= MAIN CONTENT ================= -->
-    <main>
-        <!-- Product card -->
-        <div id="product">
-            Product 1
-        </div>
-    </main>
+    <p>
+        This example demonstrates all important
+        <span class="highlight">css text and font properties</span>
+        using internal css. The text is aligned, styled, and spaced properly
+        for better readability.
+    </p>
 
-    <!-- ================= FOOTER ================= -->
+    <p>
+        Visit my
+        <a href="#">GitHub profile</a>
+        to see more projects.
+    </p>
+
+    <div class="box">
+        <span class="material-symbols-outlined icon">home</span>
+        <br><br>
+        This is a styled box with text and icon.
+    </div>
+
     <footer>
-        <p>© 2025 Vikrant</p>
+        © 2025 Vikrant | CSS Learning Journey
     </footer>
 
 </body>
