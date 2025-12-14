@@ -1,49 +1,64 @@
-/* ===== Element Selector ===== */
+/* ================= RESET CSS ================= */
+/* Browser ke default margin & padding hata dete hain */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* IMPORTANT */
+}
+
+/* ================= BODY ================= */
 body {
-    background-color: #f4f6f8;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-p {
-    color: teal;
-}
-
-/* ===== ID Selector ===== */
-#main-heading {
-    color: darkblue;
+/* ================= NAVBAR ================= */
+#bar {
+    background-color: aquamarine; /* background color */
+    color: blue;                  /* text color */
+    padding: 15px;                /* inner space */
     text-align: center;
 }
 
-/* ===== Class Selector ===== */
-.card {
-    background-color: #ffffff;
-    color: #333;
+/* ================= MAIN ================= */
+main {
+    background-color: beige;
+    height: 500px;   /* height fix ki */
+    padding: 20px;
 }
 
-/* ===== Class Selector (Special) ===== */
-.special {
-    color: purple;
+/* ================= PRODUCT BOX ================= */
+#product {
+    /* Width & Height */
+    width: 300px;
+    height: 400px;
+
+    /* Background shorthand property */
+    background: gold url("image.png") center / contain no-repeat;
+
+    /* Text styling */
+    color: black;
+    text-align: center;
+    line-height: 400px; /* vertically center text */
+
+    /* Box model */
+    border: 2px solid black;
 }
 
-/* ===== Group Selector ===== */
-.one,
-.two {
-    color: green;
-}
-
-/* ===== Multiple Classes ===== */
+/* ================= VISIBILITY EXAMPLE ================= */
+/*
 .box {
-    background-color: #e0ffe0;
+    width: 50px;
+    height: 50px;
 }
 
-/* ===== ID Selector (Highest Priority) ===== */
-#unique-box {
-    background-color: lightcoral;
-    color: white;
+#box1 {
+    background-color: bisque;
+    visibility: hidden; 
+    // Element space leta hai, but dikhai nahi deta
 }
 
-/* ===== Footer ===== */
-footer p {
-    color: gray;
-    text-align: center;
+#box2 {
+    background-color: aquamarine;
 }
+*/
+
