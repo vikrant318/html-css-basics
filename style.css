@@ -1,0 +1,49 @@
+/* ===== Element Selector ===== */
+body {
+    background-color: #f4f6f8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    color: teal;
+}
+
+/* ===== ID Selector ===== */
+#main-heading {
+    color: darkblue;
+    text-align: center;
+}
+
+/* ===== Class Selector ===== */
+.card {
+    background-color: #ffffff;
+    color: #333;
+}
+
+/* ===== Class Selector (Special) ===== */
+.special {
+    color: purple;
+}
+
+/* ===== Group Selector ===== */
+.one,
+.two {
+    color: green;
+}
+
+/* ===== Multiple Classes ===== */
+.box {
+    background-color: #e0ffe0;
+}
+
+/* ===== ID Selector (Highest Priority) ===== */
+#unique-box {
+    background-color: lightcoral;
+    color: white;
+}
+
+/* ===== Footer ===== */
+footer p {
+    color: gray;
+    text-align: center;
+}
