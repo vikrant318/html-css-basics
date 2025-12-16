@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox & Media Query Practice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ================= HEADER ================= -->
+    <header>
+        <nav class="navbar">
+            <a href="#">Home</a>
+            <a href="#">Products</a>
+            <a href="#">Contact</a>
+            <a href="#">Support</a>
+        </nav>
+    </header>
+
+    <!-- ================= MAIN ================= -->
+    <main>
+
+        <!-- Image center using flex -->
+        <section id="image_container">
+            <img src="https://picsum.photos/100" alt="sample image">
+        </section>
+
+        <!-- Flexbox cards -->
+        <section id="box_container">
+            <div class="box">Box 1</div>
+            <div class="box grow">Box 2</div>
+            <div class="box">Box 3</div>
+        </section>
+
+        <!-- Media query demo -->
+        <section id="media_box">
+            Media Box
+        </section>
+
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+        © 2025 Vikrant | CSS Practice
+    </footer>
+
+</body>
+</html>
