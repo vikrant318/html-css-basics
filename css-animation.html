@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animation Practice</title>
+
+    <style>
+        /* ================= RESET ================= */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            padding: 40px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* ================= BUTTON (PSEUDO + TRANSITION) ================= */
+        .pseudo {
+            width: 200px;
+            padding: 10px;
+            background-color: blueviolet;
+            border: none;
+            border-radius: 20px;
+            color: white;
+            cursor: pointer;
+
+            transition: all 0.5s ease-in-out;
+        }
+
+        .pseudo:hover {
+            background-color: brown;
+            width: 240px;
+        }
+
+        .pseudo:active {
+            background-color: blue;
+        }
+
+        /* ================= PROGRESS BAR ================= */
+        .progress-container {
+            width: 90%;
+            height: 25px;
+            border: 2px solid black;
+            border-radius: 20px;
+            margin-top: 40px;
+            overflow: hidden;
+        }
+
+        .progress-bar {
+            height: 100%;
+            width: 0%;
+            background-color: blue;
+            border-radius: 20px;
+
+            animation: progress 5s ease-in-out forwards;
+        }
+
+        @keyframes progress {
+            0% {
+                width: 0%;
+            }
+            100% {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <button class="pseudo">Hover Me</button>
+
+    <div class="progress-container">
+        <div class="progress-bar"></div>
+    </div>
+
+</body>
+</html>
