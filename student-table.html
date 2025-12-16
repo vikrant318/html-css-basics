@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Data Table</title>
+
+    <style>
+        /* ========== RESET ========== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f6f8;
+            padding: 20px;
+        }
+
+        /* ========== PAGE TITLE ========== */
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #1e293b;
+        }
+
+        /* ========== TABLE CONTAINER ========== */
+        .table-container {
+            max-width: 900px;
+            margin: auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            overflow-x: auto;
+        }
+
+        /* ========== TABLE ========== */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        thead {
+            background-color: #2563eb;
+            color: white;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: center;
+            border-bottom: 1px solid #e5e7eb;
+        }
+
+        th {
+            text-transform: uppercase;
+            font-size: 14px;
+            letter-spacing: 0.5px;
+        }
+
+        tbody tr:hover {
+            background-color: #e0f2fe;
+            transition: background-color 0.3s ease;
+        }
+
+        /* ========== STATUS BADGE ========== */
+        .status {
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 13px;
+            color: white;
+        }
+
+        .active {
+            background-color: #16a34a;
+        }
+
+        .inactive {
+            background-color: #dc2626;
+        }
+
+        /* ========== FOOTER TEXT ========== */
+        .note {
+            text-align: center;
+            margin-top: 15px;
+            font-size: 14px;
+            color: #475569;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Student Information Table</h1>
+
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Roll No</th>
+                    <th>Name</th>
+                    <th>Class</th>
+                    <th>Age</th>
+                    <th>City</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>101</td>
+                    <td>Amit Sharma</td>
+                    <td>10th</td>
+                    <td>15</td>
+                    <td>Delhi</td>
+                    <td><span class="status active">Active</span></td>
+                </tr>
+
+                <tr>
+                    <td>102</td>
+                    <td>Neha Verma</td>
+                    <td>12th</td>
+                    <td>17</td>
+                    <td>Lucknow</td>
+                    <td><span class="status active">Active</span></td>
+                </tr>
+
+                <tr>
+                    <td>103</td>
+                    <td>Rohit Singh</td>
+                    <td>11th</td>
+                    <td>16</td>
+                    <td>Jaipur</td>
+                    <td><span class="status inactive">Inactive</span></td>
+                </tr>
+
+                <tr>
+                    <td>104</td>
+                    <td>Pooja Gupta</td>
+                    <td>9th</td>
+                    <td>14</td>
+                    <td>Kanpur</td>
+                    <td><span class="status active">Active</span></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="note">
+        Demo student data for HTML & CSS practice
+    </div>
+
+</body>
+</html>
