@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myntra Clone</title>
+    <link rel="stylesheet" href="style4.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    
+   
+</head>
+<body>
+    <header>
+        <div class="logo_container">
+            <a href="#"><img class="myntra_logo" src="https://tse2.mm.bing.net/th/id/OIP.h0uT5CFy0XObcLI75TLNUAHaHa?pid=Api&P=0&h=180" alt="Myntra Logo"></a>
+        </div>
+        <nav class="nav_bar">
+            <a href="#">Men</a>
+            <a href="#">Women</a>
+            <a href="#">Kids</a>
+            <a href="#">Home & Living</a>
+            <a href="#">Beauty</a>
+            <a href="#">Studio<sup>New</sup></a>
+        </nav>
+        <div class="search_bar">
+            <span class="material-symbols-outlined search_icon">search</span>
+            <input class="search_input"placeholder="Search for products, brands and more">
+        </div>
+        <div class="action_bar">
+            <div class="action_container">
+                <span class="material-symbols-outlined action_icon">person</span>
+                <span class="action_name">Profile</span>
+            </div>
+            <div class="action_container">
+                <span class="material-symbols-outlined action_icon">favorite</span>
+                <span class="action_name">Wishlist</span>
+            </div>
+            <div class="action_container">
+                <span class="material-symbols-outlined action_icon">shopping_bag</span>
+                <span class="action_name">Bag</span>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="banner_container">
+            <img class="banner_image" src="https://1.bp.blogspot.com/-K2rAfFUTuiU/XsO9bDiUJ6I/AAAAAAAAB94/K-qZAwIyYGUfCX4IOKbKMvTH25JCHmMXwCLcBGAsYHQ/s1600/44179397316295.5ec28bdc05409.jpg" alt="Main Banner">
+        </div>
+        <div class="category_heading">Medal worthy brands to bag</div>
+        <div class="category_items">
+            <a href="#"><img class="sale_item" src="https://up.yimg.com/ib/th/id/OIP.kY6Q5ZGNNlbb_lNMjLZwJAHaGL?pid=Api&rs=1&c=1&qlt=95&w=139&h=116"></a>
+            <a href="#"><img class="sale_item" src="https://tse3.mm.bing.net/th/id/OIP.rwanboetv82RFcsgs0jH7gHaHa?pid=Api&P=0&h=180"></a>
+            <a href="#"><img class="sale_item" src="https://tse4.mm.bing.net/th/id/OIP.CzPOoc0v3Pgkh0_gGtq2AQHaGJ?pid=Api&P=0&h=180"></a>
+            <a href="#"><img class="sale_item" src="https://up.yimg.com/ib/th/id/OIP.wETWKdvek2fGpusxvB6TSAHaFl?pid=Api&rs=1&c=1&qlt=95&w=147&h=110"></a>
+            <a href="#"><img class="sale_item" src="https://tse4.mm.bing.net/th/id/OIP.XeysdpFM-kx-pdlhzA9B9gHaJQ?pid=Api&P=0&h=180"></a>
+            <a href="#"><img class="sale_item" src="https://tse3.mm.bing.net/th/id/OIP.cjN1anx3eelt3ZVbNgbGBwHaJo?pid=Api&P=0&h=180"></a>
+            <a href="#"><img class="sale_item" src="https://tse4.mm.bing.net/th/id/OIP.IEPIK-AX2vRkqV3LJEiYoQHaHN?pid=Api&P=0&h=180"></a>
+            <a href="#"><img class="sale_item" src="https://tse2.mm.bing.net/th/id/OIP.CsUcKjybRJzKT9Dc-sejpgHaFq?pid=Api&P=0&h=180"></a>
+            <a href="#"><img class="sale_item" src="https://tse2.mm.bing.net/th?id=OIF.UEjRd1b5w%2bt%2fks%2f3OyaNDw&pid=Api&P=0&h=180"></a>
+            <a href="#"><img class="sale_item" src="https://tse1.mm.bing.net/th/id/OIF.6EyO0su66v4EGSidGa7WVw?pid=Api&P=0&h=180"></a>
+        </div>
+        <div class="category_shop">Shop By category</div>
+        <div class="category_items_shop">
+            <a href="#"><img class="sale_items" src="https://tse4.mm.bing.net/th/id/OIP.FvT94gS69I8Jnv3Fuhm0MgHaJ4?pid=Api&P=0&h=180"></a>
+            <a href="#"><img class="sale_items" src="https://tse3.mm.bing.net/th/id/OIP.ZES7WZi8LlO9FTNWkAaZPQHaHa?pid=Api&P=0&h=180"></a>
+            <a href="#"><img class="sale_items" src="https://tse1.mm.bing.net/th/id/OIP.3Ce7-Bsmwhwjiy488PUORQHaHa?pid=Api&P=0&h=180"></a>
+            <a href="#"><img class="sale_items" src="https://tse3.mm.bing.net/th/id/OIP.t-niqA6rwPpJ1YKhEhc4_QHaJo?pid=Api&P=0&h=180"></a>
+            <a href="#"><img class="sale_items" src="https://tse2.mm.bing.net/th/id/OIP.epv8STCSXP09rYeduKxJ9gHaHa?pid=Api&P=0&h=180"></a>
+            <a href="#"><img class="sale_items" src="https://tse1.mm.bing.net/th/id/OIP.7CHjshpYLNostDwB3m1TUgHaKX?pid=Api&P=0&h=180"></a>
+            <a href="#"><img class="sale_items" src="https://tse2.mm.bing.net/th/id/OIP.OEirtmevun7QjWZqSs1o8wHaHY?pid=Api&P=0&h=180"></a>
+            <a href="#"><img class="sale_items" src="https://tse4.mm.bing.net/th/id/OIP.i5fjhyLLwxCdbnranSYkQAHaHa?pid=Api&P=0&h=180"></a>
+            <a href="#"><img class="sale_items" src="https://tse1.mm.bing.net/th/id/OIP.Y1pKsKJwQTVDRxpKu_QDdAHaHa?pid=Api&P=0&h=180"></a>
+            <a href="#"><img class="sale_items" src="https://tse4.mm.bing.net/th/id/OIP._A6vBllXYR9-ZOMcvny0QQHaFy?pid=Api&P=0&h=180"></a>
+        </div>
+    </main>
+    <footer>
+        <div class="footer_container">
+            <div class="footer_column">
+                <h3>ONLINE SHOPPING</h3>
+                <a href="#">Men</a>
+                <a href="#">Women</a>
+                <a href="#">Kids</a>
+                <a href="#">Home & Living</a>
+                <a href="#">Beauty</a>
+                <a href="#">Gift Card</a>
+                <a href="#">Myntra Insider</a>
+            </div>
+            <div class="footer_column">
+                <h3>CONNECT WITH US</h3>
+                <a href="https://www.youtube.com/watch?v=f4OHtQTuMVc&pp=ygUGbXludHJh" target="_blank">YouTube</a>
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+            </div>
+            <div class="footer_column">
+                <h3>CUSTOMER CARE</h3>
+                <a href="#">Contact Us</a>
+                <a href="#">FAQ</a>
+                <a href="#">Returns</a>
+                <a href="#">Shipping</a>
+                <a href="#">Track Order</a>
+            </div>
+        </div>
+        <hr>
+        <div class="copyright">
+            © 2025 www.vikrant.com All rights reserved.
+        </div>
+    </footer>
+</body>
+</html>
