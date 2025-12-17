@@ -1,0 +1,17 @@
+# Myntra Clone
+
+This is a front-end clone of the Myntra website built using **HTML and CSS**.
+
+## Features
+- Responsive header with navigation
+- Search bar with icons
+- Category sections with banners
+- 3-column footer (Shopping, Social, Customer Care)
+- Clean UI inspired by Myntra
+
+## Technologies Used
+- HTML5
+- CSS3 (Flexbox)
+
+## Author
+Vikrant
